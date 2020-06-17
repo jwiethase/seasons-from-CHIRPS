@@ -32,7 +32,7 @@ is_outlier <- function(x) {
 df <- read.csv("raw_data/CHIRPS_av_day_small/b57196d3-2259-4709-bf40-e173270c4a4b.csv", skip = 1) 
 
 # Edit column names
-colnames(df) <- c("date", "prec_day")
+colnames(df) <- c("date", "prec_day") 
 
 # Extract time values 
 df_chirps <- df %>% 
